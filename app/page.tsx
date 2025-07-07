@@ -4,6 +4,7 @@ import { Button } from "../components/ui/button";
 import CompanionCard from "../components/CompanionCard";
 import CompanionsList from "../components/CompanionsList";
 import { recentSessions } from "../constants";
+import CTA from "../components/CTA";
 
 const Page = () => {
   return (
@@ -41,6 +42,7 @@ const Page = () => {
           companions={recentSessions}
           className="w-2/3 max-lg:w-full "
         />
+        <CTA />
       </section>
     </div>
   );
